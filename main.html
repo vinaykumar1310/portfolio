@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: lavender;
+            font-size: 1.03rem;
+        }
+
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            align-items: center;
+        }
+
+        .firstsection>div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+            font-size: 3rem;
+
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: purple;
+        }
+
+        #element {
+            color: purple;
+
+        }
+
+        footer {
+            background-color: #0e0e1a;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer-first {
+            text-align: center;
+            color: darkgoldenrod;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-right {
+            text-align: center;
+            color: gray;
+            padding: 12px 0px;
+        }
+        footer .footer-second{
+            padding: 20px;
+            margin: 40px;
+            word-spacing: 30px;
+        }
+     
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Vinay's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Skills</a></li>
+
+                    <li><a href="academicdetails.html">Academic Details</a></li>
+
+                    <li><a href="proj22.html">Projects</a></li>
+                    <li><a href="contactpage.html">ContactMe</a></li>
+                    <li><a href="file:///C:/Users/Admin/OneDrive/Desktop/projectsellify/protfolio/pdf/vinayresumenew.pdf" download="computer" class="download-btn">Resume<i class="fa fa-download"></i></a></li>
+
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Vinay</span>
+                <div>and im a passionate </div>
+
+
+
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+                <img src="C:\Users\Admin\OneDrive\Desktop\projectsellify\protfolio\images\vinayp1-removebg-preview.png" width="80%">
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first"><!----Vinay's Developer Portfolio----></div>
+            <div class="footer-second">
+                
+                    <a href="https://www.facebook.com/profile.php?id=100037682588388" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="https://github.com/vinaykumar1310" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                    <a href="https://www.instagram.com/vinayreddy.nt/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+
+            <div class="footer-third"></div>
+            <div class="footer-four"></div>
+        </div>
+        <div class="footer-right">Copyright &#169; www.vinay'sportfolio.com | All Rights Reserved</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Python-Full Stack Developer</i>', '<i>Web Developer</i>'],
+            typeSpeed: 50,
+        });
+
+
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</body>
+
+</html>
